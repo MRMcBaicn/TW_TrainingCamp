@@ -1,4 +1,4 @@
- const database = require('../main/database')
+ const database = require('./database')
  let itemList = database.loadAllItems();
  let promotons = database.loadPromotions();
 
