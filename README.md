@@ -6,3 +6,5 @@
 * [108 任务分解 - 试卷](https://github.com/XvWenJun/TW_TrainingCamp/tree/master/108)
 * [111 TDD 基础 - FizzBuzz](https://github.com/XvWenJun/TW_TrainingCamp/tree/master/111)
 
+* [112 TDD 基础 - Pos 机](https://github.com/XvWenJun/TW_TrainingCamp/tree/master/112)
+
