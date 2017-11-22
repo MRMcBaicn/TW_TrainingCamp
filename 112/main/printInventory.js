@@ -1,7 +1,5 @@
- const database = require('./database')
- let itemList = database.loadAllItems();
- let promotons = database.loadPromotions();
-
+ const database = require('./database');
+ const [itemList,promotonList]=[database.loadAllItems(),database.loadPromotions()];
 
  function printInventory(inputs) {
      let items = getItems(inputs);
@@ -37,7 +35,7 @@
  }
 
  function addPromotons(items) {
-     let promotonBarcodes = promotons[0].barcodes;
+     let promotonBarcodes = promotonList[0].barcodes;
      promotonBarcodes.reduce((items, value) => {
          let entry = items.find(item => item.barcode === value && item.number > 2);
          if (entry) {
